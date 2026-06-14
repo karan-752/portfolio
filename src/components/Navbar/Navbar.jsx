@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
+      <h2>Karan Gupta</h2>
+
       <ul
         style={{
           display: "flex",
           gap: "20px",
           listStyle: "none",
+          padding: 0,
         }}
       >
         <li>

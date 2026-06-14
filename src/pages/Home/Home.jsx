@@ -1,17 +1,22 @@
+import Skills from "../../components/Skills/Skills";
+
 function Home() {
   return (
-    <section>
-      <h1>Hi, I'm Karan</h1>
+    <>
+      <section>
+        <h1>Karan Gupta</h1>
 
-      <p>
-        Software Engineer transitioning into Backend Engineering.
-      </p>
+        <h2>Software Engineer</h2>
 
-      <p>
-        Currently learning Java, Spring Boot, Distributed Systems and
-        building projects.
-      </p>
-    </section>
+        <p>
+          Software Engineer with experience in Salesforce development,
+          currently transitioning into Backend Engineering using Java,
+          Spring Boot and Distributed Systems.
+        </p>
+      </section>
+
+      <Skills />
+    </>
   );
 }
 

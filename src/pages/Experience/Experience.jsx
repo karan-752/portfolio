@@ -1,9 +1,17 @@
 function Experience() {
   return (
-    <div>
+    <section>
       <h1>Experience</h1>
-      <p>Work experience will appear here.</p>
-    </div>
+
+      <div>
+        <h3>Salesforce Developer</h3>
+
+        <p>
+          Worked on Salesforce development, Lightning Web Components,
+          Apex, integrations and enterprise applications.
+        </p>
+      </div>
+    </section>
   );
 }
 
